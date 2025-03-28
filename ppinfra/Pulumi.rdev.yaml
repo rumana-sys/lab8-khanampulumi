@@ -1,0 +1,6 @@
+config:
+  aws:region: us-west-2
+  khanampulumi:errorDocument: error.html
+  khanampulumi:indexDocument: index.html
+  khanampulumi:path: ./www
+  pulumi:template: static-website-aws-typescript
