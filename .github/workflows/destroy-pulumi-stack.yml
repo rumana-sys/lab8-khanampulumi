@@ -24,7 +24,7 @@ jobs:
         uses: pulumi/actions@v5
         with:
           command: destroy
-          stack-name: ireneengg2011/pulumilab8/pulumilab8dev
+          stack-name: rumanak/khanampulumi/rdev
           work-dir: ./ppinfra
           args: --yes  # Auto-confirm destruction
         env:
